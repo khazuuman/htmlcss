@@ -1,0 +1,206 @@
+body{
+    margin: 0;
+}
+#home {
+    top: 0;
+    left: 0;
+    padding: 8px 16px;
+    width: 100%;
+    height: 54.5px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 3px;
+    background-color: white;
+    z-index: 2;
+}
+#home a{
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    text-decoration: none;
+    letter-spacing: 4px;
+    font-family: "Time New Roman", Georgia, Serif;
+    color: black;
+    font-size: smaller;
+}
+.infor{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#home a:hover{
+    background-color: hsla(0, 0%, 85%, 0.879);
+}
+
+#main {
+    display: flex;
+    color: black;
+    height: 513.6px;
+    background-image: url(image/hamburger.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.Lecatering{
+    display: flex;
+    letter-spacing: 4px;
+    font-size: 36px;
+    font-family: "Time New Roman", Georgia, Serif;
+    color: hsl(0, 0%, 40%);
+    align-items: flex-end;
+    margin: 10px;
+    font-weight: 50;
+} 
+/* done  */
+
+#about{
+    width: 90%;
+    padding: 64px 0px;
+    height: 80%;
+    display: flex;
+    margin: auto;
+}
+
+.aboutArt{
+    width: 48%;
+    height: 550pxpx;
+    padding: 12px 24px;
+    filter: opacity(0.7);
+}
+
+.aboutText{
+    display: flex;
+    flex-direction: column;
+    padding: 12px 24px;
+}
+
+h1{
+    margin: 10px 0px;
+    text-align: center;
+    font-weight: lighter;
+    letter-spacing: 4px;
+}
+
+.aboutText h5{
+    margin: 10px 0px;
+    text-align: center;
+    font-weight: lighter;
+    letter-spacing: 4px;
+}
+
+.aboutText p{
+    margin: 18px 0px;
+    word-spacing: 3px;
+    font-weight: 100;
+}
+
+.aboutText .highlight{
+    padding: 0px 8px;
+    background-color: rgb(227, 227, 227);
+}
+
+.aboutText .pLighter{
+    color: rgb(103, 103, 103);
+}
+
+#menu{
+    width: 90%;
+    height: 650px;
+    padding: 64px 0px;
+    margin: auto;
+    display: flex;
+}
+
+.menuText{
+    width: 441.5px;
+    height: 649px;
+    padding: 12px 24px;
+}
+
+.menuArt{
+    width: 48%;
+    height: 600px;
+    padding: 12px 24px;
+    filter: opacity(0.7);
+}
+
+.menuText h4{
+    margin: 10px 0px;
+    letter-spacing: 4px;
+    font-weight: 100;
+}
+
+.menuText p{
+    margin: 15px 0px;
+    color: rgb(138, 138, 138);
+    font-size: small;
+}
+
+#contact{
+    width: 90%;
+    height: 625px;
+    padding: 64px 16px;
+    margin: auto;
+}
+
+#spec{
+    display: flex;
+    margin: 10px 0px;
+    font-weight: lighter;
+    letter-spacing: 4px;
+}
+
+b{
+    color: #607d8b;
+    font-size: 18px;
+}
+
+.contactText p{
+    font-size: 12px;
+    margin: 15px 0px;
+}
+
+input{
+    width: 883px;
+    height: 22.5px;
+    padding: 16px 8px;
+    border: none;
+    border-bottom: 0.5px solid black;
+}
+
+#submit{
+    display: flex;
+    align-items: center;
+    width: 883px;
+    height: 70.5px;
+    margin: 15px 0px;
+}
+
+#submit button{
+    margin: 16px 0px;
+    padding: 8px 16px;
+    width: 120.938px;
+    height: 25.5px;
+    border: none;
+    font-size: 10px;
+}
+
+#submit button:hover{
+    background-color: #cacaca;
+}
+
+footer{
+    padding: 32px 0px;
+    width: 100%;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    font-size: small;
+}
+
+
+
+
